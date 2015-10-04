@@ -1,0 +1,30 @@
+{
+    "name": "gobem-proc-filter",
+    "version": "0.0.1",
+    "description": "Processor to filter empty files for gobem builder.",
+    "main": "index.js",
+    "dependencies": {},
+    "peerDependencies": {
+        "gobem": "*"
+    },
+    "keywords": [
+        "gobem",
+        "processor",
+        "filter",
+        "empty",
+        "exclude"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Stepan Zhevak",
+        "email": "enet@protonmail.ch",
+        "url": "zhevak.name"
+    },
+    "repository": "https://github.com/Enet/gobem-proc-filter",
+    "license": "GPLv3",
+    "engines": {
+        "node": ">=4.0.0"
+    }
+}

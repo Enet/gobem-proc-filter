@@ -1,6 +1,6 @@
 {
     "name": "gobem-proc-filter",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Processor to filter empty files for gobem builder.",
     "main": "index.js",
     "dependencies": {},

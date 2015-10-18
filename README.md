@@ -1,9 +1,13 @@
 # gobem-proc-filter
 This processor for [gobem](https://github.com/Enet/gobem) cuts off empty, non-existent and non-loaded files. It has no arguments, just use it.
 
-### Example for **build.gb**
+### Example for **build.js**
 ```javascript
-select 0
-process gobem-proc-filter
-write 1
+module.exports = function () {
+    return [
+        ['select', 0],
+        ['gobem-proc-filter'],
+        ['write', 1]
+    ]; // this array will be used as build instructions
+};
 ```
